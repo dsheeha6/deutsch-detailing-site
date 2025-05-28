@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Deutsch Detailing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="contactpage.jpeg">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html"><img src="DDlogo3.png" alt="Deutsch Detailing Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header" style="background-image: url('contactpage.jpeg'); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; will-change: transform;">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Book your detailing service or get in touch with us</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@deutschdetailing.com">info@deutschdetailing.com</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+17706953811">(770) 695-3811</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Service Area</h3>
+                            <p>Acworth, Kennesaw, Marietta, Woodstock, and Atlanta</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Hours</h3>
+                            <p>Monday - Sunday: 8:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h2>Book Your Service</h2>
+                        <form action="#" method="POST" data-netlify="true">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Type</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="full-detail">Full Detail</option>
+                                    <option value="interior-detail">Interior Detail</option>
+                                    <option value="exterior-detail">Exterior Detail</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Add-On Services</label>
+                                <div class="add-ons-grid">
+                                    <div class="add-on-item">
+                                        <input type="checkbox" id="wash-wax" name="add-ons[]" value="wash-wax">
+                                        <label for="wash-wax">Wash & Wax Add-On ($40-60)</label>
+                                    </div>
+                                    <div class="add-on-item">
+                                        <input type="checkbox" id="glass-sealant" name="add-ons[]" value="glass-sealant">
+                                        <label for="glass-sealant">Glass Sealant Add-On ($60)</label>
+                                    </div>
+                                    <div class="add-on-item">
+                                        <input type="checkbox" id="engine-bay" name="add-ons[]" value="engine-bay">
+                                        <label for="engine-bay">Engine Bay Add-On ($55)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="vehicle">Vehicle Information</label>
+                                <input type="text" id="vehicle" name="vehicle" placeholder="Make, Model, Year" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Additional Information</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Submit Booking Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@deutschdetailing.com">info@deutschdetailing.com</a></p>
+                <p>Phone: <a href="tel:+17706953811">(770) 695-3811</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61565543228206" aria-label="Facebook">FB</a>
+                    <a href="https://instagram.com/deutschdetailing" aria-label="Instagram">IG</a>
+                    <a href="https://g.co/kgs/7n3mvCc" aria-label="Google">G+</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Deutsch Detailing. All rights reserved.</p>
+            <p><a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
